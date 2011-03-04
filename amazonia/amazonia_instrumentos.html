@@ -6,6 +6,18 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css" />
 <link href="../css/amazonia.css" rel="stylesheet" type="text/css" />
 <link href="../css/general.css" rel="stylesheet" type="text/css" />
+<link media="screen" rel="stylesheet" href="../css/colorbox.css" />
+<script type="text/javascript" src="../js/mapDisplay/mapper.js"></script>
+<script type="text/javascript" src="../js/mapDisplay/jquery.min.js"></script>
+<script type="text/javascript" src="../js/mapDisplay/jquery.colorbox.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			<!--$(".maps_display").colorbox();-->
+			$("a[rel='colorbox']").colorbox({transition:"fade"});
+			
+		});
+	</script>
 
 </head>
 <body class="background-amazonia">
@@ -32,7 +44,7 @@
           </ul>
         </div>
     </div>
-    <div id="Map" class="span-10"><img src="../images/amazonia/mapa-alcofan_390px-72dpi.jpg" /></div>
+    <div id="Map" class="span-10"><a href="../images/amazonia/mapa-alcofan_1050px-72dpi.jpg" rel="colorbox"><img src="../images/amazonia/mapa-alcofan_390px-72dpi.jpg" /></a></div>
     <div id="Pic" class="span-8 last"><img src="../images/amazonia/pic_aicofan001.jpg" /></div>
     <div id="Subnavigation" class="span-18 last">
     	<div class="span-18">

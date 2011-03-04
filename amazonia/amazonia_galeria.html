@@ -6,6 +6,21 @@
 <link href="../css/style.css" rel="stylesheet" type="text/css" />
 <link href="../css/amazonia.css" rel="stylesheet" type="text/css" />
 <link href="../css/general.css" rel="stylesheet" type="text/css" />
+<link media="screen" rel="stylesheet" href="../css/colorbox.css" />
+<script type="text/javascript" src="..js/mapDisplay/niftyplayer.js"></script>
+<script type="text/javascript" src="../js/mapDisplay/mapper.js"></script>
+<script type="text/javascript" src="../js/mapDisplay/jquery.min.js"></script>
+<script type="text/javascript" src="../js/mapDisplay/jquery.colorbox.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			<!--$(".maps_display").colorbox();-->
+			$("a[rel='colorbox']").colorbox({transition:"fade"});
+			
+		});
+	</script>
+
+<script src="../js/AC_RunActiveContent.js" type="text/javascript"></script>
 </head>
 <body class="background-amazonia">
 <div class="line"></div>
@@ -31,7 +46,7 @@
           </ul>
         </div>
     </div>
-    <div id="Map" class="span-10"><img src="../images/amazonia/mapa-alcofan_390px-72dpi.jpg" /></div>
+    <div id="Map" class="span-10"><a href="../images/amazonia/mapa-alcofan_1050px-72dpi.jpg" rel="colorbox"><img src="../images/amazonia/mapa-alcofan_390px-72dpi.jpg" /></a></div>
     <div id="Pic" class="span-8 last"><img src="../images/amazonia/pic_aicofan001.jpg" /></div>
     <div id="Subnavigation" class="span-18 last">
     	<div class="span-18">
@@ -41,46 +56,75 @@
         <div class="sub_nav_box"><img src="../images/amazonia/but_galeria_inac.jpg" alt="boton galeria" /></div>
         </div>
         <div class="span-18" style="margin:5px 0 0 0">
-        <div class="sub_nav_text"><a href="amazonia.html">Descripción</a></div>
+       	<div class="sub_nav_text"><a href="amazonia.html">Descripción</a></div>
         <div class="sub_nav_text"><a href="amazonia_musica.html">Música</a></div>
         <div class="sub_nav_text"><a href="amazonia_instrumentos.html">Instrumentos</a></div>
         <div class="sub_nav_text"><a href="amazonia_galeria.html">Galería</a></div>
         </div>
         
-        <div style="margin:10px 17px 0 2px; padding:15px; background-color:#e4a777; float:left; color:#721e0c">
-        <div style="text-align:justify">
-        <h4>Audio</h4>
-        <p>Bimembranófono de cuerpo cilíndrico de dos parches, con amarras de palma y caña brava. La caña brava sujeta al cuero en ambas partes. Se templa con amarras naturales. Tiene un redoblante natural a un lado, elaborado con fibra de chambira. El percutor es palo natural. Es un tambor cilíndrico de 25 cm. de altura por 30 cm. de diámetro, aproximadamente. El cuerpo se construye con una madera similar a la balsa denominada por los Cofanes ttottopaje; las tapas son confeccionadas por cueros de diversos animales de la selva: venado, sajino, danta, caimán, mono perezoso, mono machín, entre otros. Estas tapas se encuentran sujetas a tiras de caña brava y templadas con amarras de cogollo de pambil (chambira). Se ejecuta con un palo delgado y pequeño.
-Este instrumento ha sido ejecutado tradicionalmente por los hombres, aunque al parecer no existen restricciones para el uso en las mujeres.</p>
-        <table width="710" border="1">
+        <div style="margin:10px 17px 0 2px; padding:15px 15px 0 15px; background-color:#e4a777; float:left; color:#721e0c">
+        <div class="span-16" style="text-align:justify">
+        <table width="600" border="1" cellspacing="10" cellpadding="10">
   <tr>
-    <td>&nbsp;</td>
+    <td><h2>Audio</h2></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>&nbsp;</td>
+    <td class="span-7"><h4>PISTA 1</h4>
+<p>Canto shamánico sobre el "pájaro del yajé" que elaboraba sus propias flautas y las ejecutaba. CD La Música de los A'I del Aguarico-Petroecuador-Fundación para la Sobrevivencia del Pueblo Cofán-CEDEP. Reservados todos los Derechos.</p></td>
+    <td><object align="right" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+<param name=movie value="niftyplayer.swf?file=Pista-01.mp3">
+<param name=quality value=high>
+<param name=bgcolor value=#FFFFFF>
+<embed src="niftyplayer.swf?file=Pista-01.mp3" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed>
+</object></td>
+  </tr>
+  <tr>
+    <td class="span-7"><h4>PISTA 3</h4>
+<p>Sintiendo que soy pájaro.  Tema interpretado por Elvira Criollo (fallecida). Interpretan las mujeres cuando se encuentran solas caminando por la selva. CD La Música de los A'I del Aguarico-Petroecuador-Fundación para la Sobrevivencia del Pueblo Cofán-CEDEP. Reservados todos los Derechos.</p></td>
+    <td><object align="right" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+<param name=movie value="niftyplayer.swf?file=Pista-03.mp3">
+<param name=quality value=high>
+<param name=bgcolor value=#FFFFFF>
+<embed src="niftyplayer.swf?file=Pista-03.mp3" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed>
+</object></td>
+  </tr>
+  <tr>
+    <td class="span-7"><h2>Video</h2></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
+    <td class="span-7"><h4>A'I Cofán CANCIÓN DE CUNA</h4>Canción de cuna. Video: Byron Moreira. Derechos Reservados.</td>
+    <td class="span-7 "><a href="video_cancion_cuna_aicofan.flv"><img align="right" style="margin:0px 0 0 10px; border:#000000 solid 2px" src="../images/amazonia/still_video_cancion_cuna.jpg" /></a></td>
+  </tr>
+  <tr>
+    <td class="span-7"><h4>A'I COFÁN EJECUCIÓN BIFANO</h4>Pájaro Guatuso. Luciano Lucitante (Bífano). Video:  Byron Moreira. Derechos Reservados.</td>
+    <td><img align="right" style="margin:0px 0 0 10px; border:#000000 solid 2px" src="../images/amazonia/still_video_cancion_bifano.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="span-7"><h2>Fotos</h2></td>
     <td>&nbsp;</td>
-    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="span-7"><h4>Mujer A'I Cofán moliendo maíz.</h4> Foto: Erwin Patzel. Archivo Histórico-Ministerio de Cultura. Derechos Reservados.</td>
+    <td><img align="right" style="margin:0px 0 0 30px; border:#000000 solid 2px" src="../images/amazonia/pic_cofan_002_galeria.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="span-7"><h4>Hombre A'I Cofán con adornos tradicionales. </h4> Foto: Erwin Patzel. Archivo Histórico-Ministerio de Cultura. Derechos Reservados.</td>
+    <td><img align="right" style="margin:0px 0 0 30px; border:#000000 solid 2px" src="../images/amazonia/pic_cofan_005_galeria.jpg" /></td>
   </tr>
 </table>
-        <h4>Video</h4>
-        <h4>Fotos</h4>
-        
 
-       	  </div>
-        </div>
-        
-         </div>
-    <div id="Content" class="span-18 last">
-      <div id="Inner" class="push-1 span-16  last prepend-top">
-        <div id="separator"> </div>
-      </div>
+
+   	  </div>
     </div>
-    <div id="Footer" class="span-24 last"> <img src="../images/footer.png" width="950" height="106" alt="Ministerio de Cultura"/> </div>
+        
   </div>
+    
+    <div id="Footer" class="span-24 last"> <img src="../images/general/footer.png" width="950" height="106" alt="Ministerio de Cultura"/> </div>
+</div>
 </div>
 </body>
 </html>

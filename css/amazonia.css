@@ -6,13 +6,8 @@
 	background-repeat:no-repeat;
 	background-position: 50% 160px;
 }
+#Main {position:relative; height:2500px; background:url(../images/amazonia/bg-Main-amazonia.png) repeat}
 .line {border-top:#733f30 solid 2px; height:2px; width:90%; position:relative; margin:0 auto; top:150px; }
-#Header {height:125px; background:url(../images/amazonia/txt_header_amazonia.gif)}
-#Main {min-height:700px; height:1700px; background:url(../images/amazonia/bg-Main-amazonia.png) repeat}
-#Stickynote { background:#ff8441; height: 187px; width:187px; z-index:100; position:relative; top:21px}
-/*.bgtext { background: url(images/bg-text-amazonia.png) repeat-y top left;}*/
-#Left { height:99%;}
-#Search { background-color:#72210f; margin:30px 0 0 0;}
 #Navigation { background:url(../images/amazonia/bg-Navigation-amazonia.png) repeat; margin-top:30px;}
 #Navigation ul{ margin:0; padding:10px 0 0 0}
 #Navigation li{ margin:0; list-style:none; height:15px; padding:5px 0 10px 45px; color:#72210f}
