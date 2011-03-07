@@ -119,12 +119,6 @@ a img {border:none;}
 :focus {outline:0;}
 
 
-
-
-
-
-
-
 /* typography.css */
 html {font-size:100.01%;}
 body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
@@ -162,8 +156,8 @@ dd {margin-left:1.5em;}
 table {margin-bottom:1.4em;width:100%;}
 th {font-weight:bold;}
 thead th {background:#c3d9ff;}
-th, td, caption {padding:4px 10px 4px 5px;}
-tbody td { border-bottom:#999999 solid 2px;}
+th, td, caption {padding:10px 10px 10px 5px;}
+tbody td { border-bottom:#5F1C0C solid 1px;}
 tfoot {font-style:italic;}
 caption {background:#eee;}
 .small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
